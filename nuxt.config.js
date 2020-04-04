@@ -8,11 +8,21 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Pay for twilio services and use them(sms, voice, video, messenger) via cryptocurrencies' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  /*
+  ** @nuxtjs/pwa module configuration
+  ** See https://pwa.nuxtjs.org
+  */
+  pwa: {
+    manifest: {
+      name: 'Twilio crypto payments',
+      short_name: 'Twilio crypto payments'
+    }
   },
   /*
   ** Customize the progress-bar color
