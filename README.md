@@ -4,4 +4,6 @@ This project is built for [Dev.to & Twilio hackathon](https://dev.to/devteam/ann
 
 It fits in category 3: integrating twilio APIs with other APIs(in my case, my own API and SDK - [bitcart](https://github.com/MrNaif2018/bitcart)).
 
+![](screenshots/day1.png)
+
 TODO: implement everything
