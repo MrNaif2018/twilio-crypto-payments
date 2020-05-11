@@ -23,6 +23,7 @@
     "@mrnaif/vue-tel-input-vuetify": "^1.0.3",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "express": "^4.17.1",
     "nuxt": "^2.0.0",
     "twilio": "^3.42.0",
     "uuid": "^8.0.0"
