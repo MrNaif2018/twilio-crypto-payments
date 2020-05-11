@@ -20,10 +20,12 @@
     }
   },
   "dependencies": {
+    "@mrnaif/vue-tel-input-vuetify": "^1.0.3",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.0.0",
-    "vue-tel-input-vuetify": "^1.1.0"
+    "twilio": "^3.42.0",
+    "uuid": "^8.0.0"
   },
   "devDependencies": {
     "@babel/runtime-corejs2": "^7.9.2",

@@ -14,6 +14,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  serverMiddleware: [
+    '~/api/index.js'
+  ],
   /*
   ** @nuxtjs/pwa module configuration
   ** See https://pwa.nuxtjs.org
