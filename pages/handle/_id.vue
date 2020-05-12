@@ -53,8 +53,7 @@ export default {
     }
   },
   validate ({ $axios, params }) {
-    console.log($axios.defaults.baseURL)
-    return $axios.get(`/api/uuid?uuid=${params.id}`).then((r) => { console.log(r); return true }).catch((e) => { console.log(e); return false })
+    return $axios.get(`/api/uuid?uuid=${params.id}`).then(r => true).catch(e => false)
   },
   beforeCreate () {
     this.$axios.get('/api/phones').then((r) => {
