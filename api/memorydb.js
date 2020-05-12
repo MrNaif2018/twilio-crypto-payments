@@ -1,13 +1,16 @@
 // Database create/get operations
 
 import { Router } from 'express'
-import { exists, add } from './db'
+import { exists, add, db } from './db'
 
 const router = Router()
 
 router.get('/uuid', (req, res, next) => {
   const uuid = req.query.uuid
+  console.log('REQUEST')
+  console.log(uuid, db)
   if (!exists(uuid)) { // eslint-disable-line
+    console.log('not found', uuid)
     res.status(404).send('Not found')
     return
   }
