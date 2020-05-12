@@ -12,6 +12,9 @@
             }
         }
     ],
+    "env": {
+        "API_URL": "https://twilio-crypto-payments.now.sh"
+    },
     "build": {
         "env": {
             "API_URL": "https://twilio-crypto-payments.now.sh"
