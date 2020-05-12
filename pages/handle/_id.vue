@@ -53,7 +53,7 @@ export default {
     }
   },
   validate ({ $axios, params }) {
-    console.log($axios.baseURL)
+    console.log($axios.defaults.baseURL)
     return $axios.get(`/api/uuid?uuid=${params.id}`).then(r => true).catch(e => false)
   },
   beforeCreate () {
